@@ -8,7 +8,6 @@ class Solution {
             min = Math.min(min, num);
             sum += num;
         }
-
         return sum - nums.length * min;
     }
 }
